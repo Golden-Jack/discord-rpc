@@ -1,6 +1,6 @@
 {
   "name": "discord-rpc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Golden Jack Discord Rich Presence",
   "homepage": "https://github.com/Golden-Jack/discord-rpc#readme",
   "bugs": {
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
 }
