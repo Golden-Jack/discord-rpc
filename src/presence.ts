@@ -37,7 +37,7 @@ function setPresence(rpc: RPC) {
 
     client.user?.setActivity({
         details: rpc.phase ? `${rpc.phase} : ${rpc.balance}G | ${rpc.round} round${rpc.round && rpc.round > 1 ? 's' : ''}` : 'Idling',
-        state: rpc.phase ? `${rpc.lastOutcome?.outcome.toUpperCase()} : ${rpc.lastOutcome?.value && rpc.lastOutcome?.value >= 0 ? '+' : ''}${rpc.lastOutcome?.value}G` : '',
+        // state: rpc.phase ? `${rpc.lastOutcome?.outcome.toUpperCase()} : ${rpc.lastOutcome?.value && rpc.lastOutcome?.value >= 0 ? '+' : ''}${rpc.lastOutcome?.value}G` : '',
         startTimestamp: rpc.startedAt,
         largeImageKey: largeImageKey,
         largeImageText: largeImageText,
