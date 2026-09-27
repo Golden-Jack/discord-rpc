@@ -1,0 +1,28 @@
+{
+  "name": "discord-rpc",
+  "version": "0.0.0",
+  "description": "Golden Jack Discord Rich Presence",
+  "homepage": "https://github.com/Golden-Jack/discord-rpc#readme",
+  "bugs": {
+    "url": "https://github.com/Golden-Jack/discord-rpc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Golden-Jack/discord-rpc.git"
+  },
+  "license": "MIT",
+  "author": "Li Koubra",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "tsx test.ts",
+    "build": "tsx export.ts"
+  },
+  "dependencies": {
+    "@xhayper/discord-rpc": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}
