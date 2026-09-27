@@ -1,6 +1,6 @@
 {
   "name": "@golden-jack/discord-rpc",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Golden Jack Discord Rich Presence",
   "homepage": "https://github.com/Golden-Jack/discord-rpc#readme",
   "bugs": {
